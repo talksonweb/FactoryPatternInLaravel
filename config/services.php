@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'movie_db' => [
+        'connection' => env('MOVIE_CONNECTION', ''),
+        'omdb_key' => env('MOVIE_DB_OMDB_KEY', ''),        
+        'tmdb_key' => env('MOVIE_DB_TMDB_KEY', ''),        
+        'annedb_key' => env('MOVIE_DB_ANNEDB_KEY', ''),        
+    ]
+
 ];
